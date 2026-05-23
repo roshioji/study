@@ -18,6 +18,8 @@ export default function RootLayout() {
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="goal/new" options={{ presentation: 'modal' }} />
           <Stack.Screen name="material/upload" options={{ presentation: 'modal' }} />
+          <Stack.Screen name="material/[id]/study" />
+          <Stack.Screen name="material/[id]/summary" />
           <Stack.Screen name="test/[sessionId]" />
           <Stack.Screen name="test/result/[sessionId]" />
         </Stack>
